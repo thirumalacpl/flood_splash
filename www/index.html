@@ -22,6 +22,15 @@
 	<link rel="stylesheet" href="css/waves.min.css" />
 	<link rel="stylesheet" href="css/animate.css" />
 	<link rel="stylesheet" href="css/nativedroid2.css" />
+
+<!--my files-->
+<link rel="stylesheet" type="text/css" href="css/flood.css">
+<script type="text/javascript" src="js/nativedroid.script.js"></script>
+
+
+<!--my files-->
+
+
 	<!--<link rel="stylesheet" type="text/css" href="css/style.css">-->
     <link rel="stylesheet" type="text/css" href="css/file.css">
     <link rel="stylesheet" type="text/css" href="css/dashboard.css">
@@ -229,19 +238,19 @@ a.control_next {
 
 <ul data-role="listview" data-inset="true">
       
-      <li id="dashcooiwer"><a href="#" class="ui-btn ui-icon-carat-r ui-btn-icon-right "><span class="ww">Dashboard</span></a></li>
+      <li class="li_bot_1" ><a href="#" id="global-nav" class="ui-btn ui-icon-carat-r ui-btn-icon-right "><span class="ww">Home</span></a></li>
       <!-- <li id="newsher"><a href="#" class="ui-btn ui-icon-carat-r ui-btn-icon-right "><span class="ww">New Verification</span></a></li> -->
-      <li id="newlistin"><a href="#" class="ui-btn ui-icon-carat-r ui-btn-icon-right "><span class="ww">Inprogress Verification</span></a></li>
-       <li id="shapprovedinuo"><a href="#" class="ui-btn ui-icon-carat-r ui-btn-icon-right "  ><span class="ww">Waiting For Approval </span></a></li>
-      <li id="shapprovedzone"><a href="#" class="ui-btn ui-icon-carat-r ui-btn-icon-right "  ><span class="ww">To Be Approved </span></a></li>
-      <li id="completedshioo"><a href="#" class="ui-btn ui-icon-carat-r ui-btn-icon-right "  ><span class="ww">Verified-True</span></a></li>
+      <li class="li_bot_1"><a href="#" id="global-nav" class="ui-btn ui-icon-carat-r ui-btn-icon-right "><span class="ww">Sponsar a Child  </span></a></li>
+       <li class="li_bot_1" id="shapprovedinuo"><a href="#" id="global-nav" class="ui-btn ui-icon-carat-r ui-btn-icon-right "  ><span class="ww">Ways to Give </span></a></li>
+      <li class="li_bot_1" id="shapprovedzone"><a href="#" id="global-nav" class="ui-btn ui-icon-carat-r ui-btn-icon-right "  ><span class="ww">Gift Catalog</span></a></li>
+      <li class="li_bot_1" id="completedshioo"><a href="#" id="global-nav" class="ui-btn ui-icon-carat-r ui-btn-icon-right "  ><span class="ww">About Us</span></a></li>
 
-      <li id="rejectieiop"><a href="#" class="ui-btn ui-icon-carat-r ui-btn-icon-right " ><span class="ww">Rejected </span></a></li> 
-       <li id="verifalyui"><a href="#" class="ui-btn ui-icon-carat-r ui-btn-icon-right " ><span class="ww">Verified-False </span></a></li> 
-    <!--   <li id="reportcooi"><a href="#" class="ui-btn ui-icon-carat-r ui-btn-icon-right " ><span class="ww">Help Desk </span></a></li>  -->
-      
-       <li><a href="#" id="signoutcooier" class="ui-btn sio a_mar">
-      <span class="ww si">Sign Out <img src="images/signout.png" alt="" class="img_sign"></span></a></li>
+      <li class="li_bot_1" id="rejectieiop"><a href="#"  id="global-nav" class="ui-btn ui-icon-carat-r ui-btn-icon-right " ><span class="ww">My World Vision</span></a></li> 
+      <!--  <li class="li_bot_1" id="verifalyui"><a href="#" id="global-nav" class="ui-btn ui-icon-carat-r ui-btn-icon-right " ><span class="ww">My Basket </span></a></li> --> 
+        <li class="li_bot_1" >
+        <a href="gallery.html" id="global-nav" class="ui-btn ui-icon-carat-r ui-btn-icon-right " >
+        <span class="ww">Gallery </span></a></li> 
+ 
 
 </ul>
    
@@ -251,7 +260,8 @@ a.control_next {
       <div data-role="header" data-position="fixed" class="wow fadeInDown" data-wow-delay="0.2s">
       <!--   <a href="#bottomsheet" class="ui-btn ui-btn-right wow fadeIn" data-wow-delay='1.2s'></a> -->
         <a href="#overlayPanelajkaqahw" class="ui-btn-left wow fadeIn head_tvo_line head_height_tvo waves-effect waves-button  ui-btn waves-effect waves-button" data-wow-delay='0.8s' style="margin-top:-1px"><i class="zmdi zmdi-menu"></i></a>
-        <h1 class="wow fadeIn head_tvo_line head_height_tvo head_tvo_line_1  ui-title" data-wow-delay='0.4s' style="text-align:center;">New Verification </h1>
+        <h1 class="wow fadeIn head_tvo_line head_height_tvo head_tvo_line_1  ui-title" data-wow-delay='0.4s' style="text-align:center;">Chennai Flood Relief </h1>
+
       </div>
 
 
@@ -261,14 +271,179 @@ a.control_next {
 <div class="ui-grid-solo">
   <div class="ui-block-a">
 
- <ul data-role="listview" data-inset="true" id="lis_sh">
+<!--  <ul data-role="listview" data-inset="true" id="lis_sh">
 
-     <!-- <li class="ui-li-has-thumb ui-first-child li_list"><a href="#" class="waves-effect waves-button ui-btn ui-btn-icon-right ui-icon-carat-r  waves-button waves-effect waves-button">
+     <li class="ui-li-has-thumb ui-first-child li_list"><a href="#" class="waves-effect waves-button ui-btn ui-btn-icon-right ui-icon-carat-r  waves-button waves-effect waves-button">
       <img src="images/mobile/company-icon.png" class="li_imgs_1">
-      <h2 class="li_h2">Alex,Reaz</h2 class="li_h2"><p class="li_p">Employment Verification</p><p class="li_p">Thu Sep 10 2015 10:43:00 GMT+0530 (IST)</p><p class="li_p">Employment Verification</p><span class="li_span">Current Company</span><b class="li_b_1">520</b></a></li> --> 
+      <h2 class="li_h2">Alex,Reaz</h2 class="li_h2"><p class="li_p">Employment Verification</p><p class="li_p">Thu Sep 10 2015 10:43:00 GMT+0530 (IST)</p><p class="li_p">Employment Verification</p><span class="li_span">Current Company</span><b class="li_b_1">520</b></a></li> 
         
 
     </ul>
+ -->
+
+  <div style=" text-align:center;"><img src="images/logo.png" style="width:150px; height:150px;"></div>  
+
+<div style="font-weight: normal;color: #555;line-height: 1.1em;font-size: 20px;text-align:center;    margin: .75em 0 1.1em;">Chennai Flood Relief</div>
+
+<div style="border-top: 1px solid #0c4972;text-align: center;margin-top: 2.25em;">
+  <img  style="display: inline-block;
+    height: 2em;
+    padding-top: 0;
+    padding-right: .75em;
+    padding-bottom: 0;
+    padding-left: .75em;
+    margin-top: -1em;
+    text-align: center;
+    background-color: white;"src="images/disasterresponse.png" alt="">
+</div>
+
+<div style="clear:both">&nbsp;</div>
+<div style="margin-left: 5%;margin-right: 5%;"><img src="images/chennai-rain759.jpg" style="width: 100%;border-radius: 13px;"></div>
+
+
+<div style=" text-align:center;">
+        <a href="#" class="ui-btn ui-corner-all ui-shadow"><div><span style="border-radius: 0.384615385em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ff6600;
+    padding: 0.961538462em 1.538461538em;
+    display: inline-block;
+    text-transform: uppercase;
+    line-height: 1;
+    vertical-align: bottom;
+    background-color: #ff6600;
+    color: white !important;
+    text-shadow: none;
+    font-size: 1.076923077em;">Donate Now</span></div>
+</a><br>
+       
+      </div>
+
+
+
+<div style="font-weight: normal;color: #555;line-height: 1.1em;font-size: 20px;margin-left: 5%;margin-right: 5%;    text-align: justify;"><p><strong>More than 90 percent of natural disaster-related deaths occur in developing countries</strong>, where poverty and lack of resources exacerbate the suffering. We work in many of these countries, preparing for disasters before they happen, and responding quickly when they do.</p></div>
+
+<div class="ui-grid-solo">
+<div><p style="text-align:center;border-bottom: 1px dashed rgba(0, 0, 0, .2);      width: 25%;
+    margin: 0 auto;
+    padding: 5px;"><span style="font-size:15px;">
+<strong style="">OUR IMPACT</strong></span></p></div>
+
+
+
+<p align="center">
+<img alt="" src="images/disaster-relief-mobile-infographic-1.png" style="width: 327px; height: 92px;"><br><span style="font-size:50px;">
+<div style="clear:both">&nbsp;</div></span><br>
+<div class="ui-grid-a">
+  <div class="ui-block-a width_1"></div>
+  <div class="ui-block-b width_2">
+<span class="span_1">major disasters and humanitarian emergencies responded to globally</span>
+ </div>
+ <div class="ui-block-c width_3"></div>
+
+</div>
+
+<div class="ui-grid-a">
+  <div class="ui-block-a width_1_1"></div>
+  <div class="ui-block-b width_2_1">
+   <span class="em_1">
+   Achievement made possible in 2014 with the support of World Vision donors all around the world.</span> 
+ </div>
+ <div class="ui-block-c width_3_1"></div>
+
+ </div>
+ </div>
+
+<!--first tab-->
+ <div class="ui-grid-solo">
+<div><p style="text-align:center;border-bottom: 1px dashed rgba(0, 0, 0, .2);      width: 25%;
+    margin: 0 auto;
+    padding: 5px;"><span style="font-size:15px;">
+<strong style="">OUR IMPACT</strong></span></p></div>
+
+
+
+<p align="center">
+<img alt="" src="icon1.png" style="width: 327px; height: 92px;"><br>
+<strong style="    font-size: 40px;
+    margin: 3% !important;">$2.6 million</strong>
+<span style="font-size:50px;">
+<div style="clear:both">&nbsp;</div></span><br>
+<div class="ui-grid-a">
+  <div class="ui-block-a width_1"></div>
+  <div class="ui-block-b width_2">
+<span class="span_1">major disasters and humanitarian emergencies responded to globally</span>
+ </div>
+ <div class="ui-block-c width_3"></div>
+
+</div>
+
+<div class="ui-grid-a">
+  <div class="ui-block-a width_1_1"></div>
+  <div class="ui-block-b width_2_1">
+   <span class="em_1">
+   Achievement made possible in 2014 with the support of World Vision donors all around the world.</span> 
+ </div>
+ <div class="ui-block-c width_3_1"></div>
+
+ </div>
+ </div>
+
+<!--first tab-->
+<!--second tab-->
+ <div class="ui-grid-solo">
+<div><p style="text-align:center;border-bottom: 1px dashed rgba(0, 0, 0, .2);      width: 25%;
+    margin: 0 auto;
+    padding: 5px;"><span style="font-size:15px;">
+<strong style="">OUR IMPACT</strong></span></p></div>
+
+
+
+<p align="center">
+<img alt="" src="icon2.png" style="width: 327px; height: 92px;"><br>
+
+<strong style="    font-size: 40px;
+    margin: 3% !important;">$10.7 million</strong>
+    <span style="font-size:50px;">
+<div style="clear:both">&nbsp;</div></span><br>
+<div class="ui-grid-a">
+  <div class="ui-block-a width_1"></div>
+  <div class="ui-block-b width_2">
+<span class="span_1">major disasters and humanitarian emergencies responded to globally</span>
+ </div>
+ <div class="ui-block-c width_3"></div>
+
+</div>
+
+<div class="ui-grid-a">
+  <div class="ui-block-a width_1_1"></div>
+  <div class="ui-block-b width_2_1">
+   <span class="em_1">
+   Achievement made possible in 2014 with the support of World Vision donors all around the world.</span> 
+ </div>
+ <div class="ui-block-c width_3_1"></div>
+
+ </div>
+ </div>
+
+<!--second tab-->
+
+
+<div class="ui-grid-solo">
+ 
+<div class="ui-grid-a">
+    <div class="ui-block-a width_1_11"></div>
+    <div class="ui-block-b width_2_11">
+   <!--    <p class="p_foot">Contact Us</p>
+      <p>1.800.509.9716</p>
+      <p>World Vision</p>
+      <p>P.O. Box 9716</p> -->
+
+    </div>
+    <div class="ui-block-c width_3_11"></div>
+</div>
+
+</div>
 
 
 
